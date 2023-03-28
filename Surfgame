@@ -1,0 +1,56 @@
+print('''
+                              |\
+                              | |
+                              | |
+                              | |
+                              | |
+                ))))))))      | |
+              ((((    \       | |
+               \\\.=<#-<#     | |
+                \C     7      | |
+  ,              \    -)      | |
+  \\__         __.) (.__      | |
+   \\\\ _    /'         `\    | |
+    \_ '/   /  ,       .  \   | |
+      \ \  /  /| '   ' |\  \  | |
+       \ \/  / |       | \  \ | |
+        \  /'  |       |  `\ \| |
+         `'    |       |    \ | |
+               |   .   |     \| |
+               >-------<      | |\
+              [~~~~~~~~~]     | | )
+              [    L    ]     | \/
+              [    |    ]     | |
+              [____|____]     | |
+               | /   \ |      | |
+               ()     ()      | |
+               ||     ||      | |-._
+               ||     ||      | |_  `.
+          jgs  )(     )(      | | `-. `.
+              /==\   /==\     | |    `.;
+             ooooO} {Ooooo    | |      `
+             ~^^^~   ~^^^~    |/
+
+''')
+print("Welcome to Barrel Island.")
+print("Your mission is to spat out of a sick one.")
+
+#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+
+#Write your code below this line 👇
+
+choice1 = input('A wave is coming, do you go "left" or "right?"').lower()
+if choice1 == "left":
+    choice2 = input('Do you pull in to the barrel or do a sweet hack off the top? Type "Barrel" or "Hack"').lower()
+    if choice2 == "barrel":
+        choice3 = input("The wave is coming to an end do you. 1- Kick out, 2- Rip a turn, or 3- Stay in the tube").lower()
+        if choice3 == "1":
+            print("Congrats you made a barrel")
+        elif choice3 == "2":
+            print("You suck at turns - Game over")
+        elif choice3 == "3":
+            print("You got smoked but eternal glory is upon you")
+    else:
+        print("You Suck at turns - Game Over")
+else:
+    print ("The wave closed out. Game Over")
